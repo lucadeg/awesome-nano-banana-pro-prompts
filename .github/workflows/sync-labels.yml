@@ -1,13 +1,9 @@
+
 name: Sync Labels
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths:
-      - '.github/labels.yml'
-
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 permissions:
   issues: write
 

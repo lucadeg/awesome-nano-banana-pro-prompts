@@ -1,15 +1,9 @@
+
 name: Update README
 
 on:
-  schedule:
-    - cron: '0 */4 * * *'  # Every 4 hours
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - 'scripts/**'
-      - '.github/workflows/update-readme.yml'
-
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 permissions:
   contents: write
 

@@ -1,11 +1,10 @@
+
 name: Auto Close Stale Issues
 
 on:
-  schedule:
-    # 每天 UTC 时间 0:00 运行（可根据需要调整）
-    - cron: '0 0 * * *'
   workflow_dispatch:  # 允许手动触发
 
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 permissions:
   issues: write
   contents: read
